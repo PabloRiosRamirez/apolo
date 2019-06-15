@@ -1,4 +1,2 @@
-server:
-  port: 8888
 encrypt:
-  key: GRisk.2019
+  key: ${ENCRYPT_KEY}

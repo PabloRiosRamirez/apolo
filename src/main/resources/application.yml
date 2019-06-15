@@ -3,5 +3,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/grisk-project/olympus
-          searchPaths: afrodita, atenea, hermes, hades, poseidon, zeus
+          uri: ${SPRING_CLOUD_CONFIG_SERVER_GIT_URI}
+          searchPaths: ${SPRING_CLOUD_CONFIG_SERVER_GIT_PATHS}
