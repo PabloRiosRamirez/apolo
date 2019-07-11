@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pabloriosramirez/apolo.svg?branch=master)](https://travis-ci.org/pabloriosramirez/apolo)
 [![Coverage Status](https://coveralls.io/repos/github/pabloriosramirez/apolo/badge.svg?branch=master)](https://coveralls.io/github/pabloriosramirez/apolo?branch=master)
+
 This is a Config Server for GRisk project, these are deployed on [Heroku](http://heroku.com).
 ## Running the application
 
