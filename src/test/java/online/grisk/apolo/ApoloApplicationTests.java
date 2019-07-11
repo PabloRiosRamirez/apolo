@@ -9,8 +9,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class ApoloApplicationTests {
 
-	@Test
-	public void contextLoads() {
-	}
+    ApoloApplication apoloApplication = new ApoloApplication();
+
+    @Test
+    public void contextLoads() {
+        ApoloApplication.main(new String[0]);
+    }
 
 }
